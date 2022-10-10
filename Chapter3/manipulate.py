@@ -18,3 +18,17 @@ print(empty_cycle_list)
 
 # inserting a list
 # you can add a new element at any position in your list by using insert()
+empty_cycle_list.insert(0, "taro")
+print(empty_cycle_list)
+
+# removing elemnts from the list
+# remove using del cmd
+del empty_cycle_list[0]
+print(empty_cycle_list)
+
+# removing an item using pop()
+
+popped_cycle = empty_cycle_list.pop()
+print(popped_cycle)
+
+# poping items from any position
