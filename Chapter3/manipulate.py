@@ -32,3 +32,16 @@ popped_cycle = empty_cycle_list.pop()
 print(popped_cycle)
 
 # poping items from any position
+# by including index of the item in parenthesis
+
+popped_cycle = empty_cycle_list.pop(1)
+print(popped_cycle)
+
+
+# removing an item by value
+# if you kno the value of the item to remove you can use the remove() method
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+print(motorcycles)
+
+print(motorcycles.remove('honda'))
+print(motorcycles)
